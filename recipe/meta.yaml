@@ -1,5 +1,5 @@
 {% set name = "tilt" %}
-{% set version = "2.6.1" %}
+{% set version = "2.9.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: 35a99bba2adf7c1e362f5b48f9b581cce4edfba98117e34696dde6d308d84770
+    sha256: da5735d0280bba96e9a91041bb14aee435ccad5c17b0fa519249ae543d9aa3a5
 
 build:
   noarch: generic
